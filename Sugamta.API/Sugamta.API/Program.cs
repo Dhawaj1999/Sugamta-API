@@ -1,5 +1,18 @@
+using DataAccessLayer.DAL;
+using Microsoft.EntityFrameworkCore;
+using Sugamta.API.Repository;
+using Sugamta.API.Repository.Interface;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+// Add services to the container.
+builder.Services.AddDbContext<UserDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
+
+//register repository file & interface 
+//builder.Services.AddScoped<IUser,UserRepo>();
+builder.Services.AddScoped <IUnitOfWork ,UnitOfWork>();
 // Add services to the container.
 
 builder.Services.AddControllers();
