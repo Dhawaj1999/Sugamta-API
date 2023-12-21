@@ -3,6 +3,7 @@
     public interface IUnitOfWork
     {
         IUser user { get; }
+        IUserDetails UserDetails { get; }
         void Save();
         
     }
