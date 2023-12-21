@@ -1,6 +1,8 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Models.Models
 {
@@ -22,8 +24,9 @@ namespace Models.Models
         public DateTime CreationDate { get; set; }
         
         public DateTime UpdationDate { get; set; }
-         
-
+        [JsonIgnore]
+        [ValidateNever]
+        public UserDetails UserDetails { get; set; }
 
     }
 }

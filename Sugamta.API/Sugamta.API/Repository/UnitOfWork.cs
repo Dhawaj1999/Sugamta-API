@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.DAL;
+﻿using DataAccessLayer.Data;
 using Microsoft.EntityFrameworkCore;
 using Models.Models;
 using Sugamta.API.Repository.Interface;
@@ -9,12 +9,13 @@ namespace Sugamta.API.Repository
     {
         private readonly UserDbContext _context;
         public IUser user { get; private set; }
+        public IUserDetails UserDetails { get; private set; }
         public UnitOfWork(UserDbContext context)
         {
 
             _context = context;
             user = new UserRepo(_context);
-
+            UserDetails = new UserDetailsRepository(_context);
         }
         public void Save()
         {

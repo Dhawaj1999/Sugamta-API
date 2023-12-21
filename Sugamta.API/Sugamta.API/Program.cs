@@ -1,4 +1,4 @@
-using DataAccessLayer.DAL;
+using DataAccessLayer.Data;
 using Microsoft.EntityFrameworkCore;
 using Sugamta.API.Repository;
 using Sugamta.API.Repository.Interface;
