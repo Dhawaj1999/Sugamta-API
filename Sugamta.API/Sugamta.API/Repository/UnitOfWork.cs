@@ -9,12 +9,13 @@ namespace Sugamta.API.Repository
     {
         private readonly UserDbContext _context;
         public IUser user { get; private set; }
+        public IUserLoginHistory UserLoginHistory { get; private set; }
         public UnitOfWork(UserDbContext context)
         {
 
             _context = context;
             user = new UserRepo(_context);
-
+            UserLoginHistory = new UserLoginHistoryRepo(_context);
         }
         public void Save()
         {

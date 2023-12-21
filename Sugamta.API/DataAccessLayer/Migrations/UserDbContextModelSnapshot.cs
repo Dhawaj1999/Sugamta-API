@@ -48,6 +48,47 @@ namespace DataAccessLayer.Migrations
 
                     b.ToTable("Users");
                 });
+
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.Property<int>("LoginHistoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoginHistoryId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("LastLogoutTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("LoginHistoryId");
+
+                    b.HasIndex("Email");
+
+                    b.ToTable("UserLoginHistory");
+                });
+
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.HasOne("Models.Models.User", "User")
+                        .WithMany("LoginHistory")
+                        .HasForeignKey("Email")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Models.Models.User", b =>
+                {
+                    b.Navigation("LoginHistory");
+                });
 #pragma warning restore 612, 618
         }
     }

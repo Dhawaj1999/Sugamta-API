@@ -3,6 +3,7 @@
     public interface IUnitOfWork
     {
         IUser user { get; }
+        IUserLoginHistory UserLoginHistory { get; }
         void Save();
         
     }

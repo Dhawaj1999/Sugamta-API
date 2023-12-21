@@ -10,5 +10,6 @@ namespace DataAccessLayer.DAL
             
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<UserLoginHistory> UserLoginHistory { get; set; }
     }
 }
