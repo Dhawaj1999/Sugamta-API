@@ -4,6 +4,7 @@
     {
         IUser user { get; }
         IUserDetails UserDetails { get; }
+        IUserLoginHistory UserLoginHistory { get; }
         void Save();
         
     }
