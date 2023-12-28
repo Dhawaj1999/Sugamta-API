@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -9,21 +8,18 @@ namespace Models.Models
 
     public class User
     {
-        
+      [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [JsonIgnore]
         public int UserID { get; set; }
-        [Key]
-
+        [Key] 
         public string Email { get; set; }
-        [Required]
         public string Name { get; set; }
-        [NotMapped]
-        public string Image { get; set; }
-        [Required]
+       
         public string Password { get; set; }
-        [Required]
+       
         public DateTime CreationDate { get; set; }
-        
-        public DateTime UpdationDate { get; set; }
+        public int IsDeleted { get; set; } = 0;
+        public string CreatedBy { get; set; }// changes here, Add new column 
         [JsonIgnore]
         [ValidateNever]
         public UserDetails UserDetails { get; set; }

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{1E990FFA-1E6A-46CF-A355-E52B1214C3F7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SugamtaAPI.Test", "SugamtaAPI.Test\SugamtaAPI.Test.csproj", "{7DC02454-BA60-4730-8526-F943FBCF1EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1E990FFA-1E6A-46CF-A355-E52B1214C3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E990FFA-1E6A-46CF-A355-E52B1214C3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E990FFA-1E6A-46CF-A355-E52B1214C3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC02454-BA60-4730-8526-F943FBCF1EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC02454-BA60-4730-8526-F943FBCF1EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC02454-BA60-4730-8526-F943FBCF1EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC02454-BA60-4730-8526-F943FBCF1EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Models",
+    "\\Models\\Models",
+    "\\Models\\Models\\DTOs",
+    "\\Models\\Models\\DTOs\\UserDTOs",
+    "\\Sugamta.API",
+    "\\Sugamta.API\\Controllers",
+    "\\Sugamta.API\\Repository",
+    "\\Sugamta.API\\Repository\\Interface"
+  ],
+  "SelectedNode": "\\Sugamta.API\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}

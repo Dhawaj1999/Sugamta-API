@@ -1,8 +1,11 @@
 using DataAccessLayer.Data;
+using FluentValidation.AspNetCore;
+using Mapster;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Sugamta.API.Repository;
 using Sugamta.API.Repository.Interface;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,9 +17,23 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
 //register repository file & interface 
 //builder.Services.AddScoped<IUser,UserRepo>();
 builder.Services.AddScoped <IUnitOfWork ,UnitOfWork>();
+ 
+
+
+
+
+
+// Register Mapster mappings
+TypeAdapterConfig.GlobalSettings.Scan(AppDomain.CurrentDomain.GetAssemblies()); // Scan the current assembly for mapping profiles
+
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+//FluentValidator
+builder.Services.AddFluentValidation(c => c.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+
+     
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -29,6 +46,8 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

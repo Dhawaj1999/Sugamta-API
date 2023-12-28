@@ -27,8 +27,15 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
+
+                   b.Property<int>("IsDeleted")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -38,11 +45,11 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdationDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
 
                     b.HasKey("Email");
 
@@ -89,11 +96,47 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("UsersDetails");
                 });
 
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.Property<int>("LoginHistoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoginHistoryId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("LastLogoutTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("LoginHistoryId");
+
+                    b.HasIndex("Email");
+
+                    b.ToTable("UserLoginHistory");
+                });
+
             modelBuilder.Entity("Models.Models.UserDetails", b =>
                 {
                     b.HasOne("Models.Models.User", "User")
                         .WithOne("UserDetails")
                         .HasForeignKey("Models.Models.UserDetails", "Email")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.HasOne("Models.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("Email")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
