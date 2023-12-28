@@ -15,13 +15,16 @@ namespace Models.Models
         [Key]
         [JsonIgnore]
         public int LoginHistoryId { get; set; }
+        [Required]
+        [EmailAddress]
         public string Email { get; set; }
         [ForeignKey("Email")]
         [JsonIgnore]
         [ValidateNever]
         public User User { get; set; }
+        [Required]
         public DateTime LastLoginTime { get; set; }
-        public int RoleId { get; set; }
-        public string RoleType { get; set; }
+        [Required]
+        public DateTime LastLogoutTime { get; set;}
     }
 }

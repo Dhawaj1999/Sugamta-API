@@ -22,30 +22,20 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Models.Models.Role", b =>
-                {
-                    b.Property<int>("RoleId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"));
-
-                    b.Property<string>("RoleType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("RoleId");
-
-                    b.ToTable("Roles");
-                });
-
             modelBuilder.Entity("Models.Models.User", b =>
                 {
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
+
+                   b.Property<int>("IsDeleted")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -55,9 +45,6 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
                     b.Property<int>("UserID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -65,8 +52,6 @@ namespace DataAccessLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
 
                     b.HasKey("Email");
-
-                    b.HasIndex("RoleId");
 
                     b.ToTable("Users");
                 });
@@ -126,29 +111,14 @@ namespace DataAccessLayer.Migrations
                     b.Property<DateTime>("LastLoginTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("RoleType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("LastLogoutTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("LoginHistoryId");
 
                     b.HasIndex("Email");
 
                     b.ToTable("UserLoginHistory");
-                });
-
-            modelBuilder.Entity("Models.Models.User", b =>
-                {
-                    b.HasOne("Models.Models.Role", "Roles")
-                        .WithMany("Users")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Roles");
                 });
 
             modelBuilder.Entity("Models.Models.UserDetails", b =>
@@ -171,11 +141,6 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Models.Models.Role", b =>
-                {
-                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Models.Models.User", b =>

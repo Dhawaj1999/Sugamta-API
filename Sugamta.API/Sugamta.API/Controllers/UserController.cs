@@ -1,12 +1,9 @@
 ﻿
+using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Models.Models;
+using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.Repository.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using BCrypt.Net; // Add this namespace for password hashing
-using Microsoft.Extensions.Configuration;
 
 namespace Sugamta.API.Controllers
 {
@@ -14,23 +11,23 @@ namespace Sugamta.API.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        //private readonly IUser _userRepo;
         private readonly IConfiguration _configuration;
         private readonly IUnitOfWork _unitOfWork;
-        public UserController( IConfiguration configuration,IUnitOfWork unitOfWork)
+
+        public UserController(IConfiguration configuration, IUnitOfWork unitOfWork)
         {
-           // _userRepo = userRepo;
             _configuration = configuration;
             _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
-        public ActionResult<List<User>> GetUsers()
+        public ActionResult<List<UserDto>> GetUsers()
         {
             try
             {
-                var users = _unitOfWork.user.GetUsers().ToList();
-                return Ok(users);
+                var users = _unitOfWork.user.GetUsers();
+                var userDTOs = users.Adapt<List<UserDto>>(); // Using Mapster for mapping
+                return Ok(userDTOs);
             }
             catch (Exception ex)
             {
@@ -40,7 +37,7 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpGet("{email}")]
-        public ActionResult<User> GetUser(string email)
+        public ActionResult<UserDto> GetUser(string email)
         {
             try
             {
@@ -51,10 +48,12 @@ namespace Sugamta.API.Controllers
                     return NotFound($"User with email '{email}' not found.");
                 }
 
-                // Do not return the hashed password to the client
-                user.Password = null;
+                var userDTO = user.Adapt<UserDto>(); // Using Mapster for mapping
 
-                return Ok(user);
+                // Do not return the hashed password to the client
+                userDTO.Password = null;
+
+                return Ok(userDTO);
             }
             catch (Exception ex)
             {
@@ -64,82 +63,88 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<User> CreateUser(User user)
+        public ActionResult<UserDto> CreateUser(UserDto userDto)
         {
             try
             {
                 // Hash the password before storing it
-                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(user.Password);
-                user.Password = hashedPassword;
+                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+                userDto.Password = hashedPassword;
 
-                _unitOfWork.user.CreateUser(user);
+                _unitOfWork.user.CreateUser(userDto); // Using Mapster for mapping
+
                 // Clear the password before returning the user object
-                user.Password = null;
+                userDto.Password = null;
 
-                return CreatedAtAction(nameof(GetUser), new { email = user.Email }, user);
+                _unitOfWork.Save();
+
+                return CreatedAtAction(nameof(GetUser), new { email = userDto.Email }, userDto);
             }
             catch (Exception ex)
             {
-                // Log the exception if needed
-                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+                
+                return BadRequest($"Failed to create user: {ex.Message}");
             }
         }
 
-        [HttpPut("{email}")]
-        public IActionResult UpdateUser(string email, User user)
+
+
+        [HttpPatch("{email}")]
+        public IActionResult UpdateUser(int email, [FromBody] UserDto updatedUserDto)
         {
             try
             {
-                // Hash the new password before updating it
-                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(user.Password);
-                user.Password = hashedPassword;
-
-                if (!_unitOfWork.user.UpdateUser(email, user))
-                {
-                    return NotFound();
-                }
-
-                return NoContent();
+                // Call the private method to update the user by ID
+                UpdateUserByEmail(email, updatedUserDto);
+              
+                return Ok("Update Successful"); // Adjust the response message as needed
             }
             catch (Exception ex)
             {
                 // Log the exception if needed
-                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+                return StatusCode(500, $"Error updating user: {ex.Message}");
             }
         }
 
+        
+        private void UpdateUserByEmail(int email, UserDto updatedUserDto)
+        {
+            _unitOfWork.user.UpdateUser(email, updatedUserDto);
+            _unitOfWork.Save();
+
+
+        }
+
+
+
+
+
+
+
+
         [HttpDelete("{email}")]
-        public IActionResult DeleteUser(string email)
+        public  IActionResult DeleteUser(string email)
         {
             try
             {
                 if (!_unitOfWork.user.DeleteUser(email))
                 {
-                    return NotFound();
+                    return Ok("Invalid user Email or User not found"); // changes here
                 }
 
-                return NoContent();
+                return Ok("Delete Successfully"); // changes here
             }
             catch (Exception ex)
             {
                 // Log the exception if needed
-                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+                return StatusCode(500, $"Error deleting user: {ex.Message}"); // changes here
             }
         }
+
+     
+ 
+       
+
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
