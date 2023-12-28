@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj": {}
+    "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
+    "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
+        "projectPath": "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\obj\\",
+        "outputPath": "D:\\suraj-develop\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[7.4.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.1.38, )"
@@ -85,6 +89,10 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.12, )"
             }
           },
           "imports": [
