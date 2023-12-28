@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mG5fm50TaZeUXliCgKnT3sZo5ydeeFCebVLnRV/cZ6GrmMkQ9Bz4VsIGs2qyGu6dzv9lB/DmuBC6yYJtQT2Jyg==",
+  "dgSpecHash": "uQIDXu2WBGfGomGGmBIbL6v/kvdKTTuOpQmdFJDCv5K39mf1jaRmQO334ob3Re4xrIo41KKpg7qcmVv1EPBHLA==",
   "success": true,
-  "projectFilePath": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+  "projectFilePath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

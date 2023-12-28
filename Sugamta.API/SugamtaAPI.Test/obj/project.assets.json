@@ -10938,11 +10938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
+      "projectUniqueName": "D:\\Suraj-develop\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
       "projectName": "SugamtaAPI.Test",
-      "projectPath": "D:\\main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
+      "projectPath": "D:\\Suraj-develop\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\main\\Sugamta.API\\SugamtaAPI.Test\\obj\\",
+      "outputPath": "D:\\Suraj-develop\\Sugamta.API\\SugamtaAPI.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10959,11 +10959,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
-              "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj"
+            "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
+              "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj"
             },
-            "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
-              "projectPath": "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj"
+            "D:\\Suraj-develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
+              "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj"
             }
           }
         }

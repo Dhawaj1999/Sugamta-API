@@ -6535,11 +6535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+      "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\main\\Sugamta.API\\Models\\obj\\",
+      "outputPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
