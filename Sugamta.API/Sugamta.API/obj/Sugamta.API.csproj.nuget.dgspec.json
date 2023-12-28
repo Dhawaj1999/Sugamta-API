@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dhawaj - Develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {}
+    "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {}
   },
   "projects": {
-    "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj"
+              "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -53,6 +53,14 @@
             "BCrypt.Net": {
               "target": "Package",
               "version": "[0.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
@@ -97,14 +105,14 @@
         }
       }
     },
-    "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj": {
+    "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\new development\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj",
+        "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\obj\\",
+        "outputPath": "C:\\new development\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -143,6 +151,14 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.1.38, )"
@@ -186,14 +202,14 @@
         }
       }
     },
-    "C:\\Dhawaj - Develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
+    "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dhawaj - Develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "projectUniqueName": "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
         "projectName": "Sugamta.API",
-        "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "projectPath": "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
         "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Sugamta.API\\obj\\",
+        "outputPath": "C:\\new development\\Sugamta.API\\Sugamta.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -216,11 +232,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Dhawaj - Develop\\Sugamta.API\\Models\\Models.csproj"
+              "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -238,6 +254,18 @@
             "BCrypt.Net": {
               "target": "Package",
               "version": "[0.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
@@ -264,6 +292,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.12, )"
             }
           },
           "imports": [
