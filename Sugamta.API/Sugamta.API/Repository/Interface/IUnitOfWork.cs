@@ -5,6 +5,7 @@
         IUser user { get; }
         IUserDetails UserDetails { get; }
         IUserLoginHistory UserLoginHistory { get; }
+        IRole Role { get; }
         void Save();
         
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\Suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\Suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\Suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\main\\Sugamta.API\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\Suraj-develop\\Sugamta.API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
+    "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+        "projectPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\main\\Sugamta.API\\Models\\obj\\",
+        "outputPath": "D:\\Suraj-develop\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
