@@ -1,41 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {}
+    "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {}
   },
   "projects": {
-    "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\Sugamta.API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -66,6 +60,10 @@
               "target": "Package",
               "version": "[2.1.38, )"
             },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -79,6 +77,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -105,31 +107,25 @@
         }
       }
     },
-    "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
+    "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\new development\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\new development\\Sugamta.API\\Models\\obj\\",
+        "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -147,6 +143,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "BCrypt.Net": {
               "target": "Package",
               "version": "[0.1.0, )"
@@ -163,6 +163,10 @@
               "target": "Package",
               "version": "[2.1.38, )"
             },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -176,6 +180,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -202,41 +210,35 @@
         }
       }
     },
-    "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
+    "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "projectUniqueName": "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
         "projectName": "Sugamta.API",
-        "projectPath": "C:\\new development\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\new development\\Sugamta.API\\Sugamta.API\\obj\\",
+        "projectPath": "D:\\main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\main\\Sugamta.API\\Sugamta.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\new development\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\new development\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\new development\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\main\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\main\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -263,13 +265,13 @@
               "target": "Package",
               "version": "[7.4.0, )"
             },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.1.38, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -285,6 +287,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -292,10 +298,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
-            },
-            "Swashbuckle.AspNetCore.Filters": {
-              "target": "Package",
-              "version": "[7.0.12, )"
             }
           },
           "imports": [

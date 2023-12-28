@@ -1,6 +1,9 @@
-﻿using DataAccessLayer.Data;
+﻿
+using DataAccessLayer.Data;
+using Mapster;
 using Microsoft.EntityFrameworkCore;
 using Models.Models;
+using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.Repository.Interface;
 
 namespace Sugamta.API.Repository
@@ -8,52 +11,44 @@ namespace Sugamta.API.Repository
     public class UserRepo : IUser
     {
         private readonly UserDbContext _context;
+
         public UserRepo(UserDbContext context)
         {
             _context = context;
         }
-        public List<User> GetUsers()
+
+        public List<UserDto> GetUsers()
         {
-            return _context.Users.ToList();
+            var users = _context.Users.ToList();
+            return users.Adapt<List<UserDto>>(); // Using Mapster for mapping
         }
 
-        public User GetUser(string email)
+        public UserDto GetUser(string email)
         {
-            return _context.Users.Find(email);
+            var user = _context.Users.Find(email);
+            return user.Adapt<UserDto>(); // Using Mapster for mapping
         }
 
-        public void CreateUser(User user)
+        public void CreateUser(UserDto userDto)
         {
+            var user = userDto.Adapt<User>(); // Using Mapster for mapping
             _context.Users.Add(user);
             _context.SaveChanges();
         }
 
-        public bool UpdateUser(string email, User user)
+
+        public void UpdateUser(int email, UserDto updatedUserDto)
         {
-            if (email != user.Email)
-            {
-                return false;
-            }
+            var user = _context.Users.Find(email);
 
-            _context.Entry(user).State = EntityState.Modified;
-
-            try
+            if (user != null)
             {
+                user.Name = updatedUserDto.Name;
+                user.Password = BCrypt.Net.BCrypt.HashPassword(updatedUserDto.Password);
+              
+
                 _context.SaveChanges();
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(email))
-                {
-                    return false;
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return true;
         }
 
         public bool DeleteUser(string email)

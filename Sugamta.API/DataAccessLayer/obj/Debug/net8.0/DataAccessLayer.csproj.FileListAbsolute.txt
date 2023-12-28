@@ -52,21 +52,948 @@ C:\Dhawaj - Develop\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\refint\DataAcce
 C:\Dhawaj - Develop\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Dhawaj - Develop\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
 C:\Dhawaj - Develop\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.dll
-C:\new development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.pdb
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CopyComplete
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
-C:\new development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\MvcTestingAppManifest.json
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Endpoints.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Results.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Identity.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.OutputCaching.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RateLimiting.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RequestDecompression.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Registry.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\mscorlib.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\netstandard.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.AppContext.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Buffers.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Concurrent.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Immutable.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.NonGeneric.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Specialized.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Annotations.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.TypeConverter.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Configuration.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Console.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Core.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.Common.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tools.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TraceSource.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tracing.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Tar.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.Brotli.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.FileSystem.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.ZipFile.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Expressions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Parallel.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Queryable.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Memory.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.HttpListener.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Mail.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NameResolution.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NetworkInformation.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Ping.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Quic.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Requests.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Security.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.ServicePoint.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Sockets.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebClient.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebHeaderCollection.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebProxy.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.Client.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.Vectors.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ObjectModel.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.DispatchProxy.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.Lightweight.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Metadata.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.TypeExtensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Reader.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.ResourceManager.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Writer.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Handles.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.JavaScript.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Intrinsics.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Loader.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Numerics.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Formatters.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Xml.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Claims.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Algorithms.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Cng.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Csp.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Encoding.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.OpenSsl.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Primitives.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Xml.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.Windows.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.SecureString.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceModel.Web.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceProcess.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Json.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Channels.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Dataflow.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Extensions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Parallel.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Thread.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.ThreadPool.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Timer.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.Local.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ValueTuple.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.HttpUtility.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Windows.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Linq.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.ReaderWriter.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Serialization.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XDocument.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlDocument.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlSerializer.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\WindowsBase.dll
+D:\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\MvcTestingAppManifest.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\MvcTestingAppManifest.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Endpoints.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Results.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Identity.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.OutputCaching.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RateLimiting.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RequestDecompression.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Registry.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\mscorlib.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\netstandard.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.AppContext.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Buffers.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Concurrent.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Immutable.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.NonGeneric.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Specialized.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Annotations.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.DataAnnotations.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.TypeConverter.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Configuration.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Console.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Core.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.Common.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tools.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TraceSource.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tracing.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Tar.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.Brotli.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.FileSystem.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.ZipFile.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Expressions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Parallel.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Queryable.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Memory.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.HttpListener.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Mail.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NameResolution.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NetworkInformation.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Ping.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Quic.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Requests.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Security.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.ServicePoint.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Sockets.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebClient.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebHeaderCollection.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebProxy.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.Client.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.Vectors.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ObjectModel.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.DispatchProxy.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.Lightweight.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Metadata.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.TypeExtensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Reader.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.ResourceManager.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Writer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Handles.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.JavaScript.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Intrinsics.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Loader.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Numerics.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Formatters.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Xml.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.AccessControl.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Claims.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Algorithms.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Cng.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Csp.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Encoding.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.OpenSsl.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Primitives.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Xml.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.Windows.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.SecureString.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceModel.Web.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceProcess.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Json.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Channels.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Dataflow.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Extensions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Parallel.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Thread.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.ThreadPool.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Timer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.Local.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ValueTuple.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.HttpUtility.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Windows.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Linq.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.ReaderWriter.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Serialization.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XDocument.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlDocument.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlSerializer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\WindowsBase.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.pdb
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\MvcTestingAppManifest.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CopyComplete
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Sugamta.API\Sugamta.API\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\MvcTestingAppManifest.json
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Endpoints.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Results.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Identity.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.OutputCaching.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RateLimiting.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.RequestDecompression.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Routing.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.VisualBasic.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\Microsoft.Win32.Registry.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\mscorlib.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\netstandard.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.AppContext.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Buffers.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Concurrent.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Immutable.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.NonGeneric.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Collections.Specialized.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Annotations.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.DataAnnotations.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ComponentModel.TypeConverter.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Configuration.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Console.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Core.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.Common.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Data.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tools.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.TraceSource.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Diagnostics.Tracing.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Formats.Tar.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Globalization.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.Brotli.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.FileSystem.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Compression.ZipFile.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.AccessControl.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.Pipes.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Expressions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Parallel.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Linq.Queryable.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Memory.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Http.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.HttpListener.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Mail.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NameResolution.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.NetworkInformation.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Ping.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Quic.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Requests.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Security.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.ServicePoint.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.Sockets.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebClient.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebHeaderCollection.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebProxy.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.Client.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Net.WebSockets.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Numerics.Vectors.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ObjectModel.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.DispatchProxy.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Emit.Lightweight.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Metadata.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Reflection.TypeExtensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Reader.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.ResourceManager.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Resources.Writer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Handles.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.JavaScript.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Intrinsics.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Loader.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Numerics.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Formatters.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Runtime.Serialization.Xml.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.AccessControl.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Claims.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Algorithms.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Cng.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Csp.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Encoding.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.OpenSsl.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Primitives.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Cryptography.Xml.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.Principal.Windows.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Security.SecureString.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceModel.Web.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ServiceProcess.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.Json.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Channels.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Dataflow.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Extensions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Tasks.Parallel.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Thread.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.ThreadPool.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Threading.Timer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Transactions.Local.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.ValueTuple.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Web.HttpUtility.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Windows.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Linq.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.ReaderWriter.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.Serialization.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XDocument.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlDocument.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XmlSerializer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\refs\WindowsBase.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\bin\Debug\net8.0\Models.pdb
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\MvcTestingAppManifest.json
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CopyComplete
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Suraj Development\Sugamta.API\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
