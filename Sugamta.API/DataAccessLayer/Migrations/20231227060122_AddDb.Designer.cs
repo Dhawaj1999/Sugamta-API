@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    [Migration("20231221070308_Initial Commit of User and UserDetails Tables")]
-    partial class InitialCommitofUserandUserDetailsTables
+    [Migration("20231227060122_AddDb")]
+    partial class AddDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,23 @@ namespace DataAccessLayer.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Models.Models.Role", b =>
+                {
+                    b.Property<int>("RoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"));
+
+                    b.Property<string>("RoleType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RoleId");
+
+                    b.ToTable("Roles");
+                });
 
             modelBuilder.Entity("Models.Models.User", b =>
                 {
@@ -41,13 +58,18 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserID")
+                    b.Property<int>("RoleId")
                         .HasColumnType("int");
 
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
+
                     b.HasKey("Email");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("Users");
                 });
@@ -92,6 +114,46 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("UsersDetails");
                 });
 
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.Property<int>("LoginHistoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoginHistoryId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RoleType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("LoginHistoryId");
+
+                    b.HasIndex("Email");
+
+                    b.ToTable("UserLoginHistory");
+                });
+
+            modelBuilder.Entity("Models.Models.User", b =>
+                {
+                    b.HasOne("Models.Models.Role", "Roles")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Roles");
+                });
+
             modelBuilder.Entity("Models.Models.UserDetails", b =>
                 {
                     b.HasOne("Models.Models.User", "User")
@@ -101,6 +163,22 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Models.Models.UserLoginHistory", b =>
+                {
+                    b.HasOne("Models.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("Email")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Models.Models.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Models.Models.User", b =>
