@@ -1,11 +1,18 @@
 using DataAccessLayer.Data;
 using FluentValidation.AspNetCore;
-using Mapster;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Serilog;
+using Sugamta.API.MappingConfig.UserLoginHistoryProfile;
 using Sugamta.API.Repository;
 using Sugamta.API.Repository.Interface;
+using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
+using System.Text;
+using Mapster;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

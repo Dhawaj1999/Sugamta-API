@@ -1912,3 +1912,7 @@ D:\Suraj-develop\Sugamta.API\SugamtaAPI.Test\obj\Debug\net8.0\refint\SugamtaAPI.
 D:\Suraj-develop\Sugamta.API\SugamtaAPI.Test\obj\Debug\net8.0\SugamtaAPI.Test.pdb
 D:\Suraj-develop\Sugamta.API\SugamtaAPI.Test\obj\Debug\net8.0\SugamtaAPI.Test.genruntimeconfig.cache
 D:\Suraj-develop\Sugamta.API\SugamtaAPI.Test\obj\Debug\net8.0\ref\SugamtaAPI.Test.dll
+D:\suraj-develop\Sugamta.API\SugamtaAPI.Test\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\suraj-develop\Sugamta.API\SugamtaAPI.Test\bin\Debug\net8.0\Scrutor.dll
+D:\suraj-develop\Sugamta.API\SugamtaAPI.Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+D:\suraj-develop\Sugamta.API\SugamtaAPI.Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
