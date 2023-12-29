@@ -1,35 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\suraj-develop\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\suraj-develop\\Sugamta.API\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
+        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj"
+              "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -115,25 +121,31 @@
         }
       }
     },
-    "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj": {
+    "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\suraj-develop\\Sugamta.API\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\suraj-develop\\Sugamta.API\\Models\\obj\\",
+        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
+        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
         },
         "frameworks": {
           "net8.0": {
