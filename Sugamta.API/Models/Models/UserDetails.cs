@@ -14,26 +14,17 @@ namespace Models.Models
     {
         [Key]
         [ForeignKey("User")]
-        [Required(ErrorMessage = "Email is required")]
-        [EmailAddress(ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
-        [Required]  
-        public string Address { get; set; }
+
+		[NotMapped]
+		public string Image { get; set; }
+		public string Address { get; set; }
         public string City { get; set; }
-        [Required]  
         public string State { get; set; }
-        [Required]
         public string Country { get; set; }
-
-        [Required(ErrorMessage = "PhoneNumber is required")]
-        [RegularExpression(@"^\+\d{1,3}(\d{10})$", ErrorMessage = "Invalid phone number format")]
         public string PhoneNumber { get; set; }
-
-        [RegularExpression(@"^\+\d{1,3}(\d{10})$", ErrorMessage = "Invalid alternate phone number format")]
-        public string AlternatePhoneNumber { get; set; }
-        [Required]
+		public string AlternatePhoneNumber { get; set; }
         public DateTime CreationDate { get; set; }
-        [Required]
         public DateTime UpdationDate { get; set;}
         [JsonIgnore]
         [ValidateNever]

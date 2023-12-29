@@ -1,41 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sugamta.API\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj": {}
+    "D:\\Main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj": {}
   },
   "projects": {
-    "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\Main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\Main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\RAX\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Sugamta.API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\Main\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\Main\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -121,31 +115,25 @@
         }
       }
     },
-    "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
+    "D:\\Main\\Sugamta.API\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Main\\Sugamta.API\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\obj\\",
+        "projectPath": "D:\\Main\\Sugamta.API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\RAX\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Sugamta.API\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -238,41 +226,35 @@
         }
       }
     },
-    "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
+    "D:\\Main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "projectUniqueName": "D:\\Main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
         "projectName": "Sugamta.API",
-        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\obj\\",
+        "projectPath": "D:\\Main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj",
+        "packagesPath": "C:\\Users\\RAX\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Sugamta.API\\Sugamta.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\Main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\Main\\Sugamta.API\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\Main\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\Main\\Sugamta.API\\Models\\Models.csproj"
               }
             }
           }
@@ -365,41 +347,35 @@
         }
       }
     },
-    "C:\\Sugamta.API\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj": {
+    "D:\\Main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sugamta.API\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
+        "projectUniqueName": "D:\\Main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
         "projectName": "SugamtaAPI.Test",
-        "projectPath": "C:\\Sugamta.API\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
-        "packagesPath": "C:\\Users\\EYTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Sugamta.API\\Sugamta.API\\SugamtaAPI.Test\\obj\\",
+        "projectPath": "D:\\Main\\Sugamta.API\\SugamtaAPI.Test\\SugamtaAPI.Test.csproj",
+        "packagesPath": "C:\\Users\\RAX\\.nuget\\packages\\",
+        "outputPath": "D:\\Main\\Sugamta.API\\SugamtaAPI.Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EYTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/hv9HGjX4arUW8yqvWWleFRyWnnFx7UXy8ND4tvHb4N2VDhq4Wd/api": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj": {
-                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Models\\Models.csproj"
+              "D:\\Main\\Sugamta.API\\Models\\Models.csproj": {
+                "projectPath": "D:\\Main\\Sugamta.API\\Models\\Models.csproj"
               },
-              "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
-                "projectPath": "C:\\Sugamta.API\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj"
+              "D:\\Main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj": {
+                "projectPath": "D:\\Main\\Sugamta.API\\Sugamta.API\\Sugamta.API.csproj"
               }
             }
           }
