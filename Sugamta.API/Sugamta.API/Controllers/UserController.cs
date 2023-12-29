@@ -21,7 +21,7 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<UserDto>> GetUsers()
+        public ActionResult GetUsers()
         {
             try
             {
@@ -37,7 +37,7 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpGet("{email}")]
-        public ActionResult<UserDto> GetUser(string email)
+        public ActionResult GetUser(string email)
         {
             try
             {

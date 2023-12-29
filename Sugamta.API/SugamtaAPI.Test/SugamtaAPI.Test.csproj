@@ -32,4 +32,8 @@
     <ProjectReference Include="..\Sugamta.API\Sugamta.API.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

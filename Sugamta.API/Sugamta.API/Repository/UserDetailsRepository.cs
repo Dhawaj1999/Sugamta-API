@@ -16,11 +16,11 @@ namespace Sugamta.API.Repository
             _context=context;
         }       
 
-        public UserDetailsDto GetUserDetails(string email)
+        public UserDetails GetUserDetails(string email)
         {
-           // return _context.UsersDetails.FirstOrDefault(user => user.Email == email);
-            var userDetails = _context.UsersDetails.FirstOrDefault(user => user.Email == email);
-            return userDetails.Adapt<UserDetailsDto>();
+            return _context.UsersDetails.FirstOrDefault(user => user.Email == email);
+            //var userDetails = _context.UsersDetails.FirstOrDefault(user => user.Email == email);
+           // return userDetails.Adapt<UserDetailsDto>();
         }
 
         public void InsertUserDetails(UserDetailsDto userDetailsDto)

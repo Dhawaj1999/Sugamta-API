@@ -19,7 +19,7 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpGet("get-user-details/{email}")]
-        public ActionResult<UserDetailsDto> GetUserDetails(string email)
+        public ActionResult GetUserDetails(string email)
         {
             try
             {
