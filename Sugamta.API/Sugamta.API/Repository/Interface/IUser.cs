@@ -1,11 +1,12 @@
-﻿using Sugamta.API.DTOs.UserDTOs;
+﻿using Models.Models;
+using Sugamta.API.DTOs.UserDTOs;
 
 namespace Sugamta.API.Repository.Interface
 {
     public interface IUser
     {
-        List<UserDto> GetUsers();
-        UserDto GetUser(string email);
+        List<User> GetUsers();
+        User GetUser(string email);
 
         void CreateUser(UserDto userDto);
         bool DeleteUser(string email);

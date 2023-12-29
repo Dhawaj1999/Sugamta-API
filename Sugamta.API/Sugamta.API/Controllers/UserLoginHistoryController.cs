@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Models.Models;
 using Models.Models.DTOs.UserLoginHistoryDTOs;
 using Serilog;
+using Sugamta.API.DTOs.UserDetailsDTOs;
 using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.MappingConfig.UserLoginHistoryProfile;
 using Sugamta.API.Repository.Interface;
@@ -135,23 +136,16 @@ namespace Sugamta.API.Controllers
         {
             try
             {
-                UserDto _user = _unitOfWork.user.GetUser(userLoginDto.Email);
+                User _user = _unitOfWork.user.GetUser(userLoginDto.Email);
 
                 User user = new()
                 {
                     UserID = _user.UserID,
                     Email = _user.Email,
                     IsDeleted = _user.IsDeleted,
-                    RoleId = _user.RoleId
+                    RoleId = _user.RoleId,
+                    Password = _user.Password,
                 };
-
-                if (user.IsDeleted == 1)
-                {
-                    Log.Information($"Account with {user.Email} and {user.UserID} has been deleted but it might exist in database.");
-                    return BadRequest("Your account has been deleted.");
-                }
-
-                var userDetails = new UserDetails();
 
                 if (user == null)
                 {
@@ -159,16 +153,21 @@ namespace Sugamta.API.Controllers
                     ModelState.AddModelError("User Null Error", "User does not exist. Please Register your account first.");
                     return NotFound(ModelState);
                 }
-                else
+
+                if (user.IsDeleted == 1)
                 {
-                    userDetails = _unitOfWork.UserDetails.GetUserDetails(userLoginDto.Email);
-                    if (userDetails != null)
-                    {
-                        Log.Information("User Details: ");
-                        Log.Information("Email: {Email}, Address: {Address}, City: {City}, State: {State}, Country: {Country}, " +
-                            "Phone Number: {PhoneNumber}, Alternate Phone Number: {AlternatePhoneNumber}, Creation Date: {CreationDate}, Update Date: {UpdationDate}",
-                            userDetails.Email, userDetails.Address, userDetails.City, userDetails.State, userDetails.Country, userDetails.PhoneNumber, userDetails.AlternatePhoneNumber, userDetails.CreationDate, userDetails.UpdationDate);
-                    }
+                    Log.Information($"Account with {user.Email} and {user.UserID} has been deleted but it might exist in database.");
+                    return BadRequest("Your account has been deleted.");
+                }
+
+                UserDetails userDetails = _unitOfWork.UserDetails.GetUserDetails(userLoginDto.Email);
+
+                if (userDetails != null)
+                {
+                    Log.Information("User Details: ");
+                    Log.Information("Email: {Email}, Address: {Address}, City: {City}, State: {State}, Country: {Country}, " +
+                        "Phone Number: {PhoneNumber}, Alternate Phone Number: {AlternatePhoneNumber}, Creation Date: {CreationDate}, Update Date: {UpdationDate}",
+                        userDetails.Email, userDetails.Address, userDetails.City, userDetails.State, userDetails.Country, userDetails.PhoneNumber, userDetails.AlternatePhoneNumber, userDetails.CreationDate, userDetails.UpdationDate);
                 }
 
                 if (BCrypt.Net.BCrypt.Verify(userLoginDto.Password, user.Password))

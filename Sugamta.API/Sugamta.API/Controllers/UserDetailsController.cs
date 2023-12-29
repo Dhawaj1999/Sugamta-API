@@ -1,89 +1,107 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Http;
+﻿using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Models.Models;
+using Sugamta.API.DTOs.UserDetailsDTOs;
 using Sugamta.API.Repository.Interface;
-using System.Text.RegularExpressions;
 using System;
 
 namespace Sugamta.API.Controllers
 {
-   // [Route("api/[controller]")]
     [ApiController]
+    [Route("api")]
     public class UserDetailsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
 
         public UserDetailsController(IUnitOfWork unitOfWork)
         {
-            _unitOfWork=unitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
-        [HttpGet("api/get-user-details/{email}")]
+        [HttpGet("get-user-details/{email}")]
         public ActionResult GetUserDetails(string email)
         {
             try
             {
-                var data = _unitOfWork.UserDetails.GetUserDetails(email);
-                return Ok(data);
+                var userDetails = _unitOfWork.UserDetails.GetUserDetails(email);
+                if (userDetails == null)
+                {
+                    return NotFound($"UserDetails with email '{email}' not found.");
+                }
+
+                var userDetailsDto = userDetails.Adapt<UserDetailsDto>();
+                return Ok(userDetailsDto);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Failed to retrieve UserDetails{ex.Message}");
-            }
-        }
-        [HttpPost("api/add-user-details")]
-        public ActionResult AddUserDetails(UserDetails userDetails)
-         {
-            try
-            {
-
-                _unitOfWork.UserDetails.InsertUserDetails(userDetails);
-                _unitOfWork.Save();
-                return Ok("UserDetails Added Successfully");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Failed to Add UserDetails : {ex.Message}");
+                return StatusCode(500, $"Failed to retrieve UserDetails: {ex.Message}");
             }
         }
 
-        [HttpPut("api/update-user-details{email}")]
-        public ActionResult UpdateUserDetails(string email, UserDetails userDetails)
+        [HttpPost("add-user-details")]
+        public ActionResult AddUserDetails([FromBody] UserDetailsDto userDetailsDto)
         {
             try
             {
-                if (email != userDetails.Email)
+                var existingUser = _unitOfWork.UserDetails.GetUserDetails(userDetailsDto.Email);
+                if (existingUser != null)
                 {
-                    return BadRequest("UserEmail in the URL does not match UserEmail in the request body.");
+                    return BadRequest("This UserDetails already added. Please go for updating UserDetails.");
                 }
-                _unitOfWork.UserDetails.UpdateUserDetails(userDetails);
-                return Ok("UserDetails Updated Successfully");
+
+                var userDetails = userDetailsDto.Adapt<UserDetailsDto>();
+                _unitOfWork.UserDetails.InsertUserDetails(userDetails);
+                _unitOfWork.Save();
+                return Ok("UserDetails added successfully");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Failed to Update UserDetails : {ex.Message}");
+                return StatusCode(500, $"Failed to add UserDetails: {ex.Message}");
             }
         }
 
-        [HttpDelete("api/delete-user-details/{email}")]
+        [HttpPut("update-user-details/{email}")]
+        public ActionResult UpdateUserDetails(string email, [FromBody] UserDetailsDto userDetailsDto)
+        {
+            try
+            {
+                if (email != userDetailsDto.Email)
+                {
+                    return BadRequest("UserEmail in the URL does not match UserEmail in the request body.");
+                }
+
+                var userDetails = userDetailsDto.Adapt<UserDetailsDto>();
+                _unitOfWork.UserDetails.UpdateUserDetails(userDetails);
+                return Ok("UserDetails updated successfully");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Failed to update UserDetails: {ex.Message}");
+            }
+        }
+
+        [HttpDelete("delete-user-details/{email}")]
         public ActionResult DeleteUserDetails(string email)
         {
             try
             {
-                var data=_unitOfWork.UserDetails.GetUserDetails(email);
-                if (data == null)
+                var userDetailsDto = _unitOfWork.UserDetails.GetUserDetails(email);
+                if (userDetailsDto == null)
                 {
-                    return NotFound($"UserDetails with this Email not found.");
+                    return NotFound($"UserDetails with email '{email}' not found.");
                 }
-                //  _unitOfWork.UserDetails.DeleteUserDetails(new UserDetails { Email = email });
-                _unitOfWork.UserDetails.DeleteUserDetails(data);
-                return Ok("UserDetails Deleted Successfully");
+
+                var userDetails = userDetailsDto.Adapt<Models.Models.UserDetails>(); // Adapt to entity
+
+                _unitOfWork.UserDetails.DeleteUserDetails(userDetails);
+                _unitOfWork.Save();
+                return Ok("UserDetails deleted successfully");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Failed to Delete UserDetails: {ex.Message}");
+                return StatusCode(500, $"Failed to delete UserDetails: {ex.Message}");
             }
         }
+
     }
 }

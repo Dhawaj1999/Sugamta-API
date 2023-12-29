@@ -17,16 +17,18 @@ namespace Sugamta.API.Repository
             _context = context;
         }
 
-        public List<UserDto> GetUsers()
+        public List<User> GetUsers()
         {
-            var users = _context.Users.ToList();
-            return users.Adapt<List<UserDto>>(); // Using Mapster for mapping
+            return _context.Users.ToList();
+            //var users = _context.Users.ToList();
+            //return users.Adapt<List<UserDto>>(); // Using Mapster for mapping
         }
 
-        public UserDto GetUser(string email)
+        public User GetUser(string email)
         {
-            var user = _context.Users.Find(email);
-            return user.Adapt<UserDto>(); // Using Mapster for mapping
+            return _context.Users.FirstOrDefault(u => u.Email == email);
+           // var user = _context.Users.Find(email);
+           // return user.Adapt<UserDto>(); // Using Mapster for mapping
         }
 
         public void CreateUser(UserDto userDto)
