@@ -24,7 +24,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
 //register repository file & interface 
 //builder.Services.AddScoped<IUser,UserRepo>();
 builder.Services.AddScoped <IUnitOfWork ,UnitOfWork>();
- 
+builder.Services.AddScoped<IMappingConfig, MappingConfig>();
 
 
 
@@ -43,7 +43,34 @@ builder.Services.AddFluentValidation(c => c.RegisterValidatorsFromAssembly(Assem
      
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = builder.Configuration["Jwt:Issuer"], // Use configuration value
+            ValidAudience = builder.Configuration["Jwt:Audience"], // Use configuration value
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    options.OperationFilter<SecurityRequirementsOperationFilter>();
+});
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
@@ -66,6 +93,8 @@ if (app.Environment.IsDevelopment())
 app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
