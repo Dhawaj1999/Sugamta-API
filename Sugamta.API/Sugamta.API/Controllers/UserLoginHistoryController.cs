@@ -167,7 +167,7 @@ namespace Sugamta.API.Controllers
                     Log.Information("User Details: ");
                     Log.Information("Email: {Email}, Address: {Address}, City: {City}, State: {State}, Country: {Country}, " +
                         "Phone Number: {PhoneNumber}, Alternate Phone Number: {AlternatePhoneNumber}, Creation Date: {CreationDate}, Update Date: {UpdationDate}",
-                        userDetails.Email, userDetails.Address, userDetails.City, userDetails.State, userDetails.Country, userDetails.PhoneNumber, userDetails.AlternatePhoneNumber, userDetails.CreationDate, userDetails.UpdationDate);
+                        userDetails.Email, userDetails.Address, userDetails.City, userDetails.StateId, userDetails.CountryId, userDetails.PhoneNumber, userDetails.AlternatePhoneNumber, userDetails.CreationDate, userDetails.UpdationDate);
                 }
 
                 if (BCrypt.Net.BCrypt.Verify(userLoginDto.Password, user.Password))
@@ -219,8 +219,8 @@ namespace Sugamta.API.Controllers
                         new Claim("role", roleType.ToString()),
                         // Add other claims from user details if available
                         userDetails != null ? new Claim("city", userDetails.City!.ToString()) : null,
-                        userDetails != null ? new Claim("state", userDetails.State!.ToString()) : null,
-                        userDetails != null ? new Claim("country", userDetails.Country!.ToString()) : null,
+                        userDetails != null ? new Claim("state", userDetails.StateId!.ToString()) : null,
+                        userDetails != null ? new Claim("country", userDetails.CountryId!.ToString()) : null,
                         userDetails != null ? new Claim("phoneNumber", userDetails.PhoneNumber!.ToString()) : null,
                         // Add other claims as needed based on user details
                     }),

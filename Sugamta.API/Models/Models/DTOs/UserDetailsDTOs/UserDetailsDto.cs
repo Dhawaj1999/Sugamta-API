@@ -14,8 +14,8 @@ namespace Sugamta.API.DTOs.UserDetailsDTOs
         public string Email { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
-        public string State { get; set; }
-        public string Country { get; set; }
+        public int StateId { get; set; }
+        public int CountryId { get; set; }
         public string PhoneNumber { get; set; }
         public string AlternatePhoneNumber { get; set; }
         public DateTime CreationDate { get; set; }
@@ -26,5 +26,11 @@ namespace Sugamta.API.DTOs.UserDetailsDTOs
         [JsonIgnore]
         [ValidateNever]
         public User User { get; set; }
+        [JsonIgnore]
+        [ValidateNever]
+        public Country Country { get; set; }
+        [JsonIgnore]
+        [ValidateNever]
+        public State State { get; set; }
     }
 }

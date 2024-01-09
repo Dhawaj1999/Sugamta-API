@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "4hpo5GD2qKkVXtiMpqN+QVJGlmCpAp9KQMA2IadAFyM=",
+  "Hash": "afJRrxsYWpLA7iP0U9Ca+cfjRzw8svsxSPny3vi2cB8=",
   "Source": "Sugamta.API",
   "BasePath": "_content/Sugamta.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "Sugamta.API\\wwwroot",
-      "Source": "Sugamta.API",
-      "ContentRoot": "D:\\SugamtaNewAPI(1)\\SugamtaNewAPI\\SugamtaNewAPI\\Sugamta.API\\Sugamta.API\\wwwroot\\",
-      "BasePath": "_content/Sugamta.API",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

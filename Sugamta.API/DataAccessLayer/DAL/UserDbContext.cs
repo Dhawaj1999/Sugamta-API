@@ -23,6 +23,8 @@ namespace DataAccessLayer.Data
         public DbSet<UserDetails> UsersDetails { get; set; }
         public DbSet<UserLoginHistory> UserLoginHistory { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<State> States { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

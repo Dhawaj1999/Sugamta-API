@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Data;
+//using DataAccessLayer.Migrations;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -51,6 +52,18 @@ namespace Sugamta.API.Controllers
             }
         }
 
+        [HttpGet("get-country-list")]
+        public IActionResult GetCountry()
+        {
+            var data=_unitOfWork.Country.GetCountries();
+            return Ok(data);
+        }
+        [HttpGet("get-state-list")]
+        public IActionResult GetState()
+        {
+            var state=_unitOfWork.State.GetStates();
+            return Ok(state);
+        }
 
 
         [HttpGet("get-user-details/{email}")]
@@ -65,7 +78,17 @@ namespace Sugamta.API.Controllers
                 if (userDetails == null)
                 {
                     return NotFound(userDto.Email);
-                } 
+                }
+                var existingCountry = _unitOfWork.Country.GetCountries();
+                if (existingCountry == null)
+                {
+                    return BadRequest("Country Not Found.");
+                }
+                var existingState = _unitOfWork.State.GetStates();
+                if (existingState == null)
+                {
+                    return BadRequest("State Not Found");
+                }
 
                 return Ok(userDetails);
             }
@@ -86,7 +109,16 @@ namespace Sugamta.API.Controllers
                 {
                     return NotFound();
                 }
-
+                var existingCountry = _unitOfWork.Country.GetCountries();
+                if (existingCountry == null)
+                {
+                    return BadRequest("Country Not Found.");
+                }
+                var existingState = _unitOfWork.State.GetStates();
+                if (existingState == null)
+                {
+                    return BadRequest("State Not Found");
+                }
                 return Ok(userDetailsDto);
             }
             catch (Exception ex)
@@ -106,29 +138,11 @@ namespace Sugamta.API.Controllers
                 {
                     return BadRequest("This UserDetails already added. Please go for updating UserDetails.");
                 }
+               
 
                 if(_userDetailsDto.formFile != null)
                 {
-                    //string fileName = userDetailsDto.Email + Path.GetExtension(userDetailsDto.IFormFile.FileName);
-                    //string filePath = @"wwwroot\ProfileImages\" + fileName;
-
-                    //var directoryLocation = Path.Combine(Directory.GetCurrentDirectory(), filePath);
-
-                    //FileInfo file = new FileInfo(directoryLocation);
-
-                    //if (file.Exists)
-                    //{
-                    //    file.Delete();
-                    //}
-
-                    //using (var fileStream = new FileStream(directoryLocation, FileMode.Create))
-                    //{
-                    //    userDetailsDto.IFormFile.CopyTo(fileStream);
-                    //}
-
-                    //var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.Value}{HttpContext.Request.PathBase.Value}";
-                    //userDetailsDto.ImageUrl = baseUrl + "/ProfileImages/" + fileName;
-                    //userDetailsDto.ImageLocalPath = filePath;
+                   
 
                     using (var memoryStream = new MemoryStream())
                     {
@@ -146,7 +160,19 @@ namespace Sugamta.API.Controllers
                     }
                 }
 
-                
+                var existingCountry = _unitOfWork.Country.GetCountries();
+                if (existingCountry == null)
+                {
+                    return BadRequest("Country Not Found.");
+                }
+                var existingState = _unitOfWork.State.GetStates();
+                if (existingState == null)
+                {
+                    return BadRequest("State Not Found");
+                }
+
+               // userDetailsDto.CountryId =_userDetailsDto.CountryId;
+                //userDetailsDto.StateId =_userDetailsDto.StateId;
                 userDetailsDto.CreationDate = DateTime.Now;
                 //UserDetails userDetails = userDetailsDto.Adapt<UserDetailsDto>();
                 _unitOfWork.UserDetails.InsertUserDetails(userDetailsDto);
@@ -182,6 +208,16 @@ namespace Sugamta.API.Controllers
 
                         System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
                     }
+                }
+                var existingCountry = _unitOfWork.Country.GetCountries();
+                if (existingCountry == null)
+                {
+                    return BadRequest("Country Not Found.");
+                }
+                var existingState = _unitOfWork.State.GetStates();
+                if (existingState == null)
+                {
+                    return BadRequest("State Not Found");
                 }
 
                 var existingUser = _unitOfWork.UserDetails.GetUserDetails(userDetailsDto.Email);

@@ -28,7 +28,6 @@ namespace Sugamta.API.DTOs.UserDTOs
         [ValidateNever]
         public UserDetails UserDetails { get; set; }
         public int RoleId { get; set; }
-        [ValidateNever]
-        public string? OTP { get; set; }
+
     }
 }

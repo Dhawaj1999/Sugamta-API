@@ -30,7 +30,5 @@ namespace Models.Models
         [JsonIgnore]
         [ValidateNever]
         public Role Roles { get; set; }
-        [ValidateNever] 
-        public string? OTP { get; set; }
     }
 }
