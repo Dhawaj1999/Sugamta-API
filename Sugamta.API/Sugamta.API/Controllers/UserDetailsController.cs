@@ -1,7 +1,12 @@
-﻿using Mapster;
+﻿using DataAccessLayer.Data;
+using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Models.Models;
+using Models.Models.DTOs.UserDetailsDTOs;
 using Sugamta.API.DTOs.UserDetailsDTOs;
+using Sugamta.API.Repository;
 using Sugamta.API.Repository.Interface;
 using System;
 
@@ -12,24 +17,76 @@ namespace Sugamta.API.Controllers
     public class UserDetailsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly UserDbContext _userDbContext;
+        private readonly IWebHostEnvironment _hostingEnvironment;
 
-        public UserDetailsController(IUnitOfWork unitOfWork)
+        public UserDetailsController(IUnitOfWork unitOfWork, UserDbContext userDbContext, IWebHostEnvironment hostingEnvironment)
         {
             _unitOfWork = unitOfWork;
+            _userDbContext = userDbContext;
+            _hostingEnvironment = hostingEnvironment;
         }
+
+        [HttpGet("get-profile-image/{email}")]
+        public IActionResult DisplayImage(string email)
+        {
+            try
+            {
+                var userDetails = _unitOfWork.UserDetails.GetUserDetails(email);
+
+                if (userDetails == null || userDetails.ImageUrl == null || userDetails.ImageUrl.Length == 0)
+                {
+                    return NotFound();
+                }
+
+                var base64String = Convert.ToBase64String(userDetails.ImageUrl);
+
+                // Return the base64-encoded string as part of the response
+                return Ok(base64String);
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions, log errors, etc.
+                return StatusCode(500, $"Failed to retrieve and display image: {ex.Message}");
+            }
+        }
+
+
 
         [HttpGet("get-user-details/{email}")]
         public ActionResult GetUserDetails(string email)
         {
             try
             {
+                var user = _unitOfWork.user.GetUser(email);
                 var userDetails = _unitOfWork.UserDetails.GetUserDetails(email);
+                //var userDetailsDto = userDetails.Adapt<UserDetailsDto>();
+                var userDto = user.Adapt<UserDetailsDto>();
                 if (userDetails == null)
                 {
-                    return NotFound($"UserDetails with email '{email}' not found.");
+                    return NotFound(userDto.Email);
+                } 
+
+                return Ok(userDetails);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Failed to retrieve UserDetails: {ex.Message}");
+            }
+        }
+
+        [HttpGet("get-user-details-for-create-or-update/{email}")]
+        public ActionResult GetUserDetailsForCreateOrUpdate(string email)
+        {
+            try
+            {
+                var userDetails = _unitOfWork.UserDetails.GetUserDetails(email);
+                var userDetailsDto = userDetails.Adapt<UserDetailsDto>();
+                if (userDetails == null)
+                {
+                    return NotFound();
                 }
 
-                var userDetailsDto = userDetails.Adapt<UserDetailsDto>();
                 return Ok(userDetailsDto);
             }
             catch (Exception ex)
@@ -39,18 +96,60 @@ namespace Sugamta.API.Controllers
         }
 
         [HttpPost("add-user-details")]
-        public ActionResult AddUserDetails([FromBody] UserDetailsDto userDetailsDto)
+        public ActionResult AddUserDetails([FromForm] UserDetailsCreateOrUpdateDto _userDetailsDto)
         {
             try
             {
+                var userDetailsDto = _userDetailsDto.Adapt<UserDetailsDto>();
                 var existingUser = _unitOfWork.UserDetails.GetUserDetails(userDetailsDto.Email);
                 if (existingUser != null)
                 {
                     return BadRequest("This UserDetails already added. Please go for updating UserDetails.");
                 }
 
-                var userDetails = userDetailsDto.Adapt<UserDetailsDto>();
-                _unitOfWork.UserDetails.InsertUserDetails(userDetails);
+                if(_userDetailsDto.formFile != null)
+                {
+                    //string fileName = userDetailsDto.Email + Path.GetExtension(userDetailsDto.IFormFile.FileName);
+                    //string filePath = @"wwwroot\ProfileImages\" + fileName;
+
+                    //var directoryLocation = Path.Combine(Directory.GetCurrentDirectory(), filePath);
+
+                    //FileInfo file = new FileInfo(directoryLocation);
+
+                    //if (file.Exists)
+                    //{
+                    //    file.Delete();
+                    //}
+
+                    //using (var fileStream = new FileStream(directoryLocation, FileMode.Create))
+                    //{
+                    //    userDetailsDto.IFormFile.CopyTo(fileStream);
+                    //}
+
+                    //var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.Value}{HttpContext.Request.PathBase.Value}";
+                    //userDetailsDto.ImageUrl = baseUrl + "/ProfileImages/" + fileName;
+                    //userDetailsDto.ImageLocalPath = filePath;
+
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        _userDetailsDto.formFile.CopyToAsync(memoryStream);
+                        var imageBytes = memoryStream.ToArray();
+
+                        var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(_userDetailsDto.formFile.FileName);
+                        var imagePath = Path.Combine(uploadDirectory, fileName);
+
+                        userDetailsDto.ImageUrl = imageBytes;
+                        userDetailsDto.ImageLocalPath = uploadDirectory;
+
+                        System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
+                    }
+                }
+
+                
+                userDetailsDto.CreationDate = DateTime.Now;
+                //UserDetails userDetails = userDetailsDto.Adapt<UserDetailsDto>();
+                _unitOfWork.UserDetails.InsertUserDetails(userDetailsDto);
                 _unitOfWork.Save();
                 return Ok("UserDetails added successfully");
             }
@@ -60,18 +159,37 @@ namespace Sugamta.API.Controllers
             }
         }
 
-        [HttpPut("update-user-details/{email}")]
-        public ActionResult UpdateUserDetails(string email, [FromBody] UserDetailsDto userDetailsDto)
+        [HttpPut("update-user-details")]
+        public ActionResult UpdateUserDetails([FromForm] UserDetailsCreateOrUpdateDto userDetails)
         {
             try
             {
-                if (email != userDetailsDto.Email)
+                var userDetailsDto = userDetails.Adapt<UserDetailsDto>();
+
+                if (userDetails.formFile != null)
                 {
-                    return BadRequest("UserEmail in the URL does not match UserEmail in the request body.");
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        userDetails.formFile.CopyToAsync(memoryStream);
+                        var imageBytes = memoryStream.ToArray();
+
+                        var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(userDetails.formFile.FileName);
+                        var imagePath = Path.Combine(uploadDirectory, fileName);
+
+                        userDetailsDto.ImageUrl = imageBytes;
+                        userDetailsDto.ImageLocalPath = uploadDirectory;
+
+                        System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
+                    }
                 }
 
-                var userDetails = userDetailsDto.Adapt<UserDetailsDto>();
-                _unitOfWork.UserDetails.UpdateUserDetails(userDetails);
+                var existingUser = _unitOfWork.UserDetails.GetUserDetails(userDetailsDto.Email);
+                _userDbContext.Entry(existingUser).State = EntityState.Detached;
+                userDetailsDto.CreationDate = existingUser.CreationDate;
+                userDetailsDto.UpdationDate = DateTime.Now;
+                _unitOfWork.UserDetails.UpdateUserDetails(userDetailsDto);
+                _unitOfWork.Save();
                 return Ok("UserDetails updated successfully");
             }
             catch (Exception ex)

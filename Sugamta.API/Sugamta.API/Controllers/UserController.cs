@@ -2,6 +2,7 @@
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Models.Models;
+using Models.Models.DTOs.UserDTOs;
 using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.Repository.Interface;
 
@@ -89,13 +90,13 @@ namespace Sugamta.API.Controllers
 
 
 
-        [HttpPatch("{email}")]
-        public IActionResult UpdateUser(int email, [FromBody] UserDto updatedUserDto)
+        [HttpPut("update-user")]
+        public IActionResult UpdateUser([FromForm] UserOtpDto updatedUserDto)
         {
             try
             {
                 // Call the private method to update the user by ID
-                UpdateUserByEmail(email, updatedUserDto);
+                UpdateUserByEmail(updatedUserDto.Email, updatedUserDto);
               
                 return Ok("Update Successful"); // Adjust the response message as needed
             }
@@ -107,12 +108,10 @@ namespace Sugamta.API.Controllers
         }
 
         
-        private void UpdateUserByEmail(int email, UserDto updatedUserDto)
+        private void UpdateUserByEmail(string email, UserOtpDto updatedUserDto)
         {
             _unitOfWork.user.UpdateUser(email, updatedUserDto);
             _unitOfWork.Save();
-
-
         }
 
 

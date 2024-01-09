@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SugamtaAPI.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42bae2d4d2d96ec6368dc25846cd884138c2c9e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9ce4509c85cea05b69501fa7206396660333bdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SugamtaAPI.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SugamtaAPI.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

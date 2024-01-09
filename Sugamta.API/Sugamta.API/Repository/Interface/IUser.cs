@@ -1,4 +1,5 @@
 ﻿using Models.Models;
+using Models.Models.DTOs.UserDTOs;
 using Sugamta.API.DTOs.UserDTOs;
 
 namespace Sugamta.API.Repository.Interface
@@ -14,7 +15,7 @@ namespace Sugamta.API.Repository.Interface
 
 
 
-        void UpdateUser(int email, UserDto updatedUserDto);
+        void UpdateUser(string email, UserOtpDto updatedUserDto);
 
 
     }

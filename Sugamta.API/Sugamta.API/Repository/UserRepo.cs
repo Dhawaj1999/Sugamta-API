@@ -3,6 +3,7 @@ using DataAccessLayer.Data;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 using Models.Models;
+using Models.Models.DTOs.UserDTOs;
 using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.Repository.Interface;
 
@@ -39,16 +40,13 @@ namespace Sugamta.API.Repository
         }
 
 
-        public void UpdateUser(int email, UserDto updatedUserDto)
+        public void UpdateUser(string email, UserOtpDto updatedUserDto)
         {
             var user = _context.Users.Find(email);
 
             if (user != null)
             {
-                user.Name = updatedUserDto.Name;
-                user.Password = BCrypt.Net.BCrypt.HashPassword(updatedUserDto.Password);
-              
-
+                user.OTP = updatedUserDto.OTP;
                 _context.SaveChanges();
             }
         }

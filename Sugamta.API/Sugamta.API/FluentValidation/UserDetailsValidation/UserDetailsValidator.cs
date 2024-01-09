@@ -12,8 +12,6 @@ namespace Sugamta.API.FluentValidation.UserDetailsValidation
             RuleFor(u => u.State).NotNull().MaximumLength(50);
             RuleFor(u => u.Country).NotNull().MaximumLength(50);
             RuleFor(u => u.PhoneNumber).NotNull().MaximumLength(50);
-            RuleFor(u => u.CreationDate).NotEmpty().WithMessage("CreationDate is required");
-            RuleFor(u => u.UpdationDate).NotEmpty().WithMessage("UpdationDate is required");
         }
 
     }

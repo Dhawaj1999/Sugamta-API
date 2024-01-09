@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using AutoMapper.Configuration.Annotations;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Models.Models
@@ -15,9 +17,6 @@ namespace Models.Models
         [Key]
         [ForeignKey("User")]
         public string Email { get; set; }
-
-		[NotMapped]
-		public string Image { get; set; }
 		public string Address { get; set; }
         public string City { get; set; }
         public string State { get; set; }
@@ -26,6 +25,8 @@ namespace Models.Models
 		public string AlternatePhoneNumber { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime UpdationDate { get; set;}
+        public byte[]? ImageUrl { get; set; }
+        public string? ImageLocalPath { get; set; }
         [JsonIgnore]
         [ValidateNever]
         public  User User { get; set; }
