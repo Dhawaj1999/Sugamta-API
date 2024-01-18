@@ -214,22 +214,80 @@ namespace Sugamta.API.Controllers
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-                        new Claim("userId", user.UserID.ToString()),
-                        new Claim("email", user.Email),
-                        new Claim("role", roleType.ToString()),
-                        // Add other claims from user details if available
-                        userDetails != null ? new Claim("city", userDetails.City!.ToString()) : null,
-                        userDetails != null ? new Claim("state", userDetails.StateId!.ToString()) : null,
-                        userDetails != null ? new Claim("country", userDetails.CountryId!.ToString()) : null,
-                        userDetails != null ? new Claim("phoneNumber", userDetails.PhoneNumber!.ToString()) : null,
-                        // Add other claims as needed based on user details
-                    }),
+                    new Claim("userId", user.UserID.ToString()),
+                    new Claim("email", user.Email),
+                    new Claim("role", roleType.ToString()),
+                    // Add other claims from user details if available
+                    userDetails != null ? new Claim("city", userDetails.City!.ToString()) : null,
+                    userDetails != null ? new Claim("state", userDetails.StateId!.ToString()) : null,
+                    userDetails != null ? new Claim("country", userDetails.CountryId!.ToString()) : null,
+                    userDetails != null ? new Claim("phoneNumber", userDetails.PhoneNumber!.ToString()) : null,
+                    // Add other claims as needed based on user details
+                }),
+                Issuer = _configuration["Jwt:Issuer"],
+                Audience = _configuration["Jwt:Audience"],
                 Expires = DateTime.UtcNow.AddHours(2), // Token expiration time
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)), SecurityAlgorithms.HmacSha256Signature)
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        [HttpPost("generate-link")]
+        public IActionResult GenerateLink([FromForm] LinkGenerationDto link)
+        {
+            if (link != null)
+            {
+                link.LinkGenerationDate = DateTime.Now;
+                link.IsActive = 1;
+
+                LinkGeneration generatedLink = new()
+                {
+                    RegistrationLink = link.RegistrationLink,
+                    LinkGenerationDate = DateTime.Now,
+                    IsActive = 1
+                };
+
+                _unitOfWork.LinkGenerate.GenerateLink(generatedLink);
+                _unitOfWork.Save();
+                return Ok();
+            }
+
+            return NotFound("Generated Link is null");
+        }
+
+        [HttpGet("check-generated-link/{generatedLink}")]
+        public IActionResult CheckGeneratedLink(string generatedLink)
+        {
+            if (generatedLink != null)
+            {
+                var encodedLink = Uri.UnescapeDataString(generatedLink);
+
+                string decodedUniqueCode = Uri.UnescapeDataString(encodedLink.Replace(" ", "+"));
+
+                var link = _unitOfWork.LinkGenerate.GetGeneratedLinkByLink(l => l.RegistrationLink == decodedUniqueCode);
+
+                if (link != null && link.IsActive == 1)
+                {
+                    return Ok();
+                }
+            }
+
+            return NotFound("Generated Link is null");
+        }
+
+        [HttpPost]
+        public void SetExpiredLinksInactive()
+        {
+            var expiredLinks = _unitOfWork.LinkGenerate.GetLinksWhere(l => l.IsActive == 1 && l.LinkGenerationDate < DateTime.Now.AddHours(-2));
+
+            foreach (var link in expiredLinks)
+            {
+                link.IsActive = 0;
+            }
+
+            _unitOfWork.Save();
         }
     }
 }

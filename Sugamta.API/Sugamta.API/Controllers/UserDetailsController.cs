@@ -149,14 +149,14 @@ namespace Sugamta.API.Controllers
                         _userDetailsDto.formFile.CopyToAsync(memoryStream);
                         var imageBytes = memoryStream.ToArray();
 
-                        var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
-                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(_userDetailsDto.formFile.FileName);
-                        var imagePath = Path.Combine(uploadDirectory, fileName);
+                        //var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
+                        //var fileName = Guid.NewGuid().ToString() + Path.GetExtension(_userDetailsDto.formFile.FileName);
+                        //var imagePath = Path.Combine(uploadDirectory, fileName);
 
                         userDetailsDto.ImageUrl = imageBytes;
-                        userDetailsDto.ImageLocalPath = uploadDirectory;
+                        //userDetailsDto.ImageLocalPath = uploadDirectory;
 
-                        System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
+                        //ystem.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
                     }
                 }
 
@@ -199,14 +199,14 @@ namespace Sugamta.API.Controllers
                         userDetails.formFile.CopyToAsync(memoryStream);
                         var imageBytes = memoryStream.ToArray();
 
-                        var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
+                       /* var uploadDirectory = Path.Combine(_hostingEnvironment.WebRootPath, "UploadedImages");
                         var fileName = Guid.NewGuid().ToString() + Path.GetExtension(userDetails.formFile.FileName);
-                        var imagePath = Path.Combine(uploadDirectory, fileName);
+                        var imagePath = Path.Combine(uploadDirectory, fileName);*/
 
                         userDetailsDto.ImageUrl = imageBytes;
-                        userDetailsDto.ImageLocalPath = uploadDirectory;
+                       // userDetailsDto.ImageLocalPath = uploadDirectory;
 
-                        System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
+                       // System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
                     }
                 }
                 var existingCountry = _unitOfWork.Country.GetCountries();

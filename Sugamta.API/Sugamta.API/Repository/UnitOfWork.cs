@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Data;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Models.Models;
 using Sugamta.API.Repository.Interface;
@@ -12,6 +13,7 @@ namespace Sugamta.API.Repository
         public IUserLoginHistory UserLoginHistory { get; private set; }
         public IUserDetails UserDetails { get; private set; }
         public IRole Role { get; private set; }
+        public ILinkGenerate LinkGenerate { get; private set; }
         public ICountry Country { get; private set; }
         public IState State { get; private set; }
         public UnitOfWork(UserDbContext context)
@@ -22,7 +24,8 @@ namespace Sugamta.API.Repository
             UserDetails = new UserDetailsRepository(_context);
             UserLoginHistory = new UserLoginHistoryRepo(_context);
             Role = new RoleRepo(_context);
-            Country=new CountryRepo(_context);
+            LinkGenerate = new LinkGenerateRepo(_context);
+            Country =new CountryRepo(_context);
             State=new StateRepo(_context);
         }
         public void Save()
