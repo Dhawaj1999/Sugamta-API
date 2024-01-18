@@ -25,28 +25,29 @@ namespace DataAccessLayer.Data
         public DbSet<UserLoginHistory> UserLoginHistory { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Country> Countries { get; set; }
-        public DbSet<State> States { get; set; }  
+        public DbSet<State> States { get; set; } 
+        public DbSet<LinkGeneration> GeneratedRegisterLinks { get; set; }
         public DbSet<SecondaryClient> SecondaryClients { get; set; }    
-
         public DbSet<SecondaryClientDetail> SecondaryClientDetails { get; set; }
+        public DbSet<Agency> Agencies { get; set; }
+        public DbSet<PrimaryClient> PrimaryClients { get; set; }
+        public DbSet<PrimaryClientDetails> PrimaryClientsDetails { get; set; }
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            /*  // modelBuilder.Entity<UserDetails>().HasNoKey();
-              modelBuilder.Entity<UserDetails>().HasKey(u => u.Email);
-
-              // Configure the relationship between UserDetails and User
-              modelBuilder.Entity<UserDetails>()
-                  .HasOne(u => u.User)
-                  .WithOne()
-                  .HasForeignKey<UserDetails>(u => u.Email);*/
             modelBuilder.Entity<UserDetails>().HasKey(u => u.Email);
 
+modelBuilder.Entity<UserDetails>()
+    .HasOne<User>(u => u.User)
+    .WithOne(u => u.UserDetails)
+    .HasForeignKey<UserDetails>(u => u.Email)
+    .HasPrincipalKey<User>(u => u.Email);
 
-            modelBuilder.Entity<UserDetails>()
-                .HasOne<User>(u => u.User)
-                .WithOne(u => u.UserDetails)
-                .HasForeignKey<UserDetails>(u => u.Email)
-                .HasPrincipalKey<User>(u => u.Email);
+modelBuilder.Entity<PrimaryClient>()
+    .HasOne(pc => pc.Agency)
+    .WithMany() // Assuming Agency has multiple PrimaryClients
+    .HasForeignKey(pc => pc.AgencyEmail)
+    .HasPrincipalKey(a => a.Email);
 
             base.OnModelCreating(modelBuilder);
 
