@@ -18,5 +18,6 @@ namespace Models.Models
         [JsonIgnore]
         [ValidateNever]
         public ICollection<User> Users { get; set; }
+        public ICollection<SecondaryClient> SecondaryClients { get; set; }
     }
 }
