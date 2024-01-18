@@ -16,6 +16,9 @@ namespace Sugamta.API.Repository
         public ILinkGenerate LinkGenerate { get; private set; }
         public ICountry Country { get; private set; }
         public IState State { get; private set; }
+        public IAgency Agency { get; private set; }
+        public IPrimaryClient PrimaryClient { get; private set; }
+        public IPrimaryClientDetails PrimaryClientDetails { get; private set; }
         public ISecondaryClient SecondaryClient { get; private set; }   
         public ISecondaryClientDetails SecondaryClientDetail { get; private set; }
         public UnitOfWork(UserDbContext context)
@@ -29,6 +32,9 @@ namespace Sugamta.API.Repository
             LinkGenerate = new LinkGenerateRepo(_context);
             Country =new CountryRepo(_context);
             State=new StateRepo(_context);
+            Agency=new AgencyRepo(_context);
+            PrimaryClient=new PrimaryClientRepo(_context);
+            PrimaryClientDetails = new PrimaryClientDetailsRepo(_context);
             SecondaryClient = new SecondaryClientRepository(_context);
            // SecondaryClient=new SecondaryClientRepository(_context);
            SecondaryClientDetail=new SecondaryClientDetailsRepository(_context);
