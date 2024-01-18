@@ -1,7 +1,9 @@
 ﻿
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models.Models;
+using Models.Models.DTOs.UserDTOs;
 using Sugamta.API.DTOs.UserDTOs;
 using Sugamta.API.Repository.Interface;
 
@@ -20,6 +22,7 @@ namespace Sugamta.API.Controllers
             _unitOfWork = unitOfWork;
         }
 
+        //[Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult GetUsers()
         {
@@ -27,6 +30,11 @@ namespace Sugamta.API.Controllers
             {
                 var users = _unitOfWork.user.GetUsers();
                 var userDTOs = users.Adapt<List<UserDto>>(); // Using Mapster for mapping
+                foreach(var item in userDTOs)
+                {
+                    var role = _unitOfWork.Role.GetRoleById(i => i.RoleId ==  item.RoleId);
+                    item.RoleType = role.RoleType;
+                }
                 return Ok(userDTOs);
             }
             catch (Exception ex)
@@ -62,8 +70,8 @@ namespace Sugamta.API.Controllers
             }
         }
 
-        [HttpPost]
-        public ActionResult<UserDto> CreateUser(UserDto userDto)
+        [HttpPost("create-user")]
+        public ActionResult<UserDto> CreateUser(UserCreateDto userDto)
         {
             try
             {
@@ -89,14 +97,13 @@ namespace Sugamta.API.Controllers
 
 
 
-        [HttpPatch("{email}")]
-        public IActionResult UpdateUser(int email, [FromBody] UserDto updatedUserDto)
+        [HttpPut("update-user-without-otp")]
+        public IActionResult UpdateUserWithoutOtp([FromForm] UserUpdateDto updatedUserDto)
         {
             try
             {
-                // Call the private method to update the user by ID
-                UpdateUserByEmail(email, updatedUserDto);
-              
+                _unitOfWork.user.UpdateUserWithoutOtp(updatedUserDto);
+
                 return Ok("Update Successful"); // Adjust the response message as needed
             }
             catch (Exception ex)
@@ -106,9 +113,27 @@ namespace Sugamta.API.Controllers
             }
         }
 
-        
-        private void UpdateUserByEmail(int email, UserDto updatedUserDto)
+        [HttpPut("update-user")]
+        public IActionResult UpdateUser([FromForm] UserOtpDto updatedUserDto)
         {
+            try
+            {
+                // Call the private method to update the user by ID
+                UpdateUserByEmail(updatedUserDto.Email, updatedUserDto);
+
+                return Ok("Update Successful"); // Adjust the response message as needed
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if needed
+                return StatusCode(500, $"Error updating user: {ex.Message}");
+            }
+        }
+
+
+        private void UpdateUserByEmail(string email, UserOtpDto updatedUserDto)
+        {
+
             _unitOfWork.user.UpdateUser(email, updatedUserDto);
             _unitOfWork.Save();
 
